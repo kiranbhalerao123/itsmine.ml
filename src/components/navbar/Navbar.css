@@ -1,0 +1,44 @@
+.navbar-dark {
+  background: transparent !important;
+  padding: 20px 30px;
+}
+a {
+  color: white !important;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 0px 16px !important;
+}
+.resume-btn:hover {
+  background: #ff9900 !important;
+  opacity: 1;
+}
+.resume-btn {
+  background: #ff9900 !important;
+  opacity: 0.9;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0rem !important;
+  height: 2.8rem !important;
+}
+.nav-link p {
+  font-size: 1rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav-btn {
+  color: #fff !important;
+  background: transparent !important;
+  border: 0px;
+  cursor: pointer;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+.resume-btn-text {
+  color: #fff !important;
+}
+.resume-btn-text:hover {
+  color: #fff !important;
+}

@@ -1,0 +1,25 @@
+#skills-section {
+  /* height: 110vh; */
+  background: transparent url('../../assets/middle_img.png') no-repeat;
+  background-size: 100%;
+  background-position: top;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 3rem;
+  color: white;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0rem 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  #skills-section {
+    background: transparent url("../../assets/middle_img.png") no-repeat;
+    background-size: auto;
+  }
+}

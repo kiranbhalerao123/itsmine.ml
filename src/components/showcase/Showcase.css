@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#showcase {
+  height: 101vh;
+  background: transparent url("../../assets/showcase_img.png") no-repeat;
+  background-size: 100%;
+  background-position: top;
+  margin-bottom: 10vh;
+}
+.content {
+  margin: 7rem 0 0 0 !important;
+}
+.content h1 {
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  width: 100%;
+}
+.content p {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  color: white;
+  width: 70%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.content button:hover {
+  background: #ff9900 !important;
+  opacity: 1;
+}
+.content button {
+  background: #ff9900 !important;
+  opacity: 0.9;
+  padding: 1rem 5rem !important;
+}
+.col-lg-5 {
+  margin: 0 !important;
+  padding: 0% !important;
+}
+
+@media screen and (max-width: 992px) {
+  #showcase {
+    /* background: transparent url("../../assets/showcase_img.png") no-repeat; */
+    background: linear-gradient(#380092, #ff7db3);
+    background-size: unset;
+    width: 101%;
+  }
+  .content button {
+    background: #ffa600 !important;
+    padding: 1rem 5rem !important;
+  }
+  .content button .text-dark {
+    color: rgb(255, 255, 255) !important;
+  }
+  .slogun-text {
+    margin-left: 0rem !important;
+  }
+  .main-title {
+    text-align: center;
+  }
+}
