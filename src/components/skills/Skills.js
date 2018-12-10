@@ -20,13 +20,13 @@ class Skills extends Component {
             <SkillCard
               img_url={require("../../assets/development_icon.png")}
               title="Web development"
-              desc={`I consider myself as a javascript developer😎. I can use javascript anywhere UI Development, Backend Development or the other factors.`}
+              desc={`I consider myself as a javascript developer. I can use javascript anywhere UI Development, Backend Development or the other factors.`}
               url="https://github.com/kiranbhalerao123"
             />
             <SkillCard
               img_url={require("../../assets/android_icon.png")}
               title="App development"
-              desc={`I started my journey with android development and so I know the basics of Android development and React Native for developing cross-platform Apps😃.`}
+              desc={`I started my journey with android development and so I know the basics of Android development and React Native for developing cross-platform Apps.`}
               url="https://github.com/kiranbhalerao123"
             />
           </section>

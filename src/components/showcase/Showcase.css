@@ -30,13 +30,8 @@ html {
   margin-left: 3rem;
   margin-top: 1rem;
 }
-.content button:hover {
-  background: #ff9900 !important;
-  opacity: 1;
-}
 .content button {
   background: #ff9900 !important;
-  opacity: 0.9;
   padding: 1rem 5rem !important;
 }
 .col-lg-5 {

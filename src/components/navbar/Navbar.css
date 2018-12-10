@@ -11,13 +11,8 @@ a {
 .nav-item {
   padding: 0px 16px !important;
 }
-.resume-btn:hover {
-  background: #ff9900 !important;
-  opacity: 1;
-}
 .resume-btn {
   background: #ff9900 !important;
-  opacity: 0.9;
   padding-top: 0.2rem !important;
   padding-bottom: 0rem !important;
   height: 2.8rem !important;
