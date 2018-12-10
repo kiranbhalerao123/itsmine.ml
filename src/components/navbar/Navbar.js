@@ -8,7 +8,7 @@ class Navbar extends Component {
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-dark bg-light">
           <a className="navbar-brand" href="https://localhost:3000">
-            It'smine.ml
+          It'smekiran
           </a>
           <button
             className="navbar-toggler"

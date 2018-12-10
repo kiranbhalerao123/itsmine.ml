@@ -31,9 +31,7 @@ const fontColors = [
 ];
 */
 
-const subtitle = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quos rem
-cumque illo ullam ratione odit minima vero sequi ipsum. Voluptatum
-reiciendis dolor ab illum fugit aut eligendi rerum quidem..!`;
+const subtitle = `Projects..hmm!🤗 ok, This section contains some of my projects that I've built in my free time. This site is also a part of them, I've fetch all projects info from github's graphql API, ok enough talking have look at..🙂`;
 
 class Projects extends React.Component {
   state = {

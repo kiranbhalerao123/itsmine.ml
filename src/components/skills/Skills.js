@@ -3,8 +3,7 @@ import "./Skills.css";
 import Heading from "../heading/Heading";
 import SkillCard from "../skill-card/SkillCard";
 
-const subtitle = `Lorem ipsum dolor sit amet consectetur adipisicing elit.Dolor, 
-Possimus repudiandae, maiores quam fugit`;
+const subtitle = `I think🤔 this is a good place to talk about my skills..hmm😃 isn't it? ok fine. I Categorised my skills into three sections as..`;
 class Skills extends Component {
   render() {
     return (
@@ -15,22 +14,19 @@ class Skills extends Component {
             <SkillCard
               img_url={require("../../assets/design_icon.png")}
               title="UI/UX design"
-              desc={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut
-            soluta iure, saepe perferendis enim quidem veritatis`}
+              desc={`Better UI means a better User experience. I understand and learn this key concept of UI/UX and I usually use design first approach before starting any new projects.`}
               url="https://dribbble.com/Kiranbhalerao11"
             />
             <SkillCard
               img_url={require("../../assets/development_icon.png")}
               title="Web development"
-              desc={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut
-            soluta iure, saepe perferendis enim quidem veritatis`}
+              desc={`I consider myself as a javascript developer😎. I can use javascript anywhere UI Development, Backend Development or the other factors.`}
               url="https://github.com/kiranbhalerao123"
             />
             <SkillCard
               img_url={require("../../assets/android_icon.png")}
               title="App development"
-              desc={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aut
-            soluta iure, saepe perferendis enim quidem veritatis`}
+              desc={`I started my journey with android development and so I know the basics of Android development and React Native for developing cross-platform Apps😃.`}
               url="https://github.com/kiranbhalerao123"
             />
           </section>
