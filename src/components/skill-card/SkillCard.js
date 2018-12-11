@@ -14,7 +14,7 @@ class SkillCard extends Component {
         <h3>{this.props.title}</h3>
         <p>{this.props.desc}</p>
         <a target="blank" href={this.props.url}>
-          <div className="ui button learn-more-btn">LEARN MORE</div>
+          <div className=" learn-more-btn">LEARN MORE</div>
         </a>
       </div>
     );

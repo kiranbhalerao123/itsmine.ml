@@ -22,7 +22,11 @@
   border-radius: 1.5rem 0 0 1.5rem !important;
   border: 0rem;
 }
-
+.card-desc {
+  margin: 1rem 20% 2rem 20%; 
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.15rem;
+}
 @media screen and (max-width: 600px) {
   .card-section {
     margin: 1rem 0rem;

@@ -23,7 +23,7 @@ class Showcase extends Component {
                   my work.
                 </p>
                 <button
-                  className="btn big ui button mt-4"
+                  className="btn big mt-4"
                   onClick={() =>
                     animateScrollTo(document.querySelector("#scroll-projects"))
                   }

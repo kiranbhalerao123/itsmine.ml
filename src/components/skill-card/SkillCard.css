@@ -10,7 +10,9 @@
 
 .skill-card-section p {
   text-align: center;
+  font-family: "Nunito", sans-serif;
   margin-top: 0rem;
+  font-size: 1.15rem !important;
 }
 .skill-card-section h3 {
   text-align: center;
@@ -19,12 +21,13 @@
 
 .learn-more-btn {
   color: #002fff !important;
-  background: #D2E5FF !important;
-  padding: 1rem 4rem 0.9rem 4rem !important;
+  background: #d2e5ff !important;
+  padding: 0.8rem 4rem 0.6rem 4rem !important;
   margin: 1rem 0 0 0 !important;
-  border-radius: 0.5rem !important;
+  border-radius: 0.4rem !important;
   border: 0;
   font-weight: bold;
+  font-size: 1rem;
   cursor: pointer;
-  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-family: Nunito, Ubuntu, Helvetica, Arial, sans-serif;
 }

@@ -16,10 +16,22 @@
   justify-content: center;
   align-items: center;
 }
-
+#skills-section > p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem 20% 1rem 20%; 
+}
 @media screen and (max-width: 600px) {
   #skills-section {
     background: transparent url("../../assets/middle_img.png") no-repeat;
     background-size: auto;
+  }
+  #skills-section > p {
+    margin: 1rem 8% 1rem 8%; 
+  }
+}
+@media screen and (max-width: 720px) and (min-width: 601px){
+  #skills-section > p {
+    margin: 0.2rem 8% 1rem 8%; 
   }
 }

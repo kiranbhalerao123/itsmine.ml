@@ -44,7 +44,7 @@ class ProjectCard extends Component {
           </div>
         </div>
         <div className="mt-4">
-          <p className="ml-auto mt-0">
+          <p className="ml-auto mt-0 card-desc">
             {this.props.node.description}
           </p>
         </div>

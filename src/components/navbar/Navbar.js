@@ -25,7 +25,7 @@ class Navbar extends Component {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <button
-                  className="nav-link ui button nav-btn"
+                  className="nav-link btn nav-btn"
                   onClick={() =>
                     animateScrollTo(document.querySelector(".navbar-expand-md"))
                   }
@@ -35,7 +35,7 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <button
-                  className="nav-link ui button nav-btn"
+                  className="nav-link btn nav-btn"
                   onClick={() =>
                     animateScrollTo(document.querySelector("#scroll-projects"))
                   }
@@ -45,7 +45,7 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <button
-                  className="nav-link ui button nav-btn"
+                  className="nav-link btn nav-btn"
                   onClick={() =>
                     animateScrollTo(document.querySelector("#scroll-skills"))
                   }
@@ -53,7 +53,7 @@ class Navbar extends Component {
                   Skills
                 </button>
               </li>
-              <li className="nav-item ui button resume-btn">
+              <li className="nav-item btn resume-btn">
                 <a
                   className="nav-link text-light"
                   href="https://drive.google.com/open?id=1aU53eBQkluL6VmeWTUY1s4IKdA2havmE"

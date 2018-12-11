@@ -37,3 +37,8 @@ a {
 .resume-btn-text:hover {
   color: #fff !important;
 }
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
