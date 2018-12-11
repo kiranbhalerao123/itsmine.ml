@@ -8,18 +8,25 @@ class Footer extends Component {
       >
         <p className="mb-0 pb-0">
           <span className="text-danger">{"<3"}</span>{" "}
-          <strong>Open Source</strong>
+          <strong>Open Source 😍</strong>
         </p>
         <p className="text-center pl-3 pr-3 pt-1">
           Copyright © 2018 Created by{" "}
           <a
+            className="text-dark"
             href="https://www.linkedin.com/in/kiran-bhalerao-b12aa9132/"
             target="blank"
-            className="text-dark"
           >
-            <strong>Kiran Bhalerao</strong>
+            <strong>Kiran Bhalerao </strong>
           </a>
-          .
+          Graphics by
+          <a
+            className="text-dark"
+            href="https://www.freepik.com/free-vector/app-development-concept-with-flat-design_2533377.htm"
+            target="blank"
+          >
+            <strong> Freepik</strong>
+          </a>
         </p>
       </div>
     );

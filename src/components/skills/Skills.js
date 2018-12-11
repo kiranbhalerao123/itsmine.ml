@@ -3,7 +3,7 @@ import "./Skills.css";
 import Heading from "../heading/Heading";
 import SkillCard from "../skill-card/SkillCard";
 
-const subtitle = `I think🤔 this is a good place to talk about my skills..hmm😃 isn't it? ok fine. I Categorised my skills into three sections as..`;
+const subtitle = `I think🤔 this is a good place to talk about my skills..Hmm😃 isn't it? ok fine. I Categorised my skills into three sections as..`;
 class Skills extends Component {
   render() {
     return (
@@ -26,7 +26,7 @@ class Skills extends Component {
             <SkillCard
               img_url={require("../../assets/android_icon.png")}
               title="App development"
-              desc={`I started my journey with android development and so I know the basics of Android development and React Native for developing cross-platform Apps.`}
+              desc={`I started my journey with android development. I know the basics of Android development and React Native for developing cross-platform Apps.`}
               url="https://github.com/kiranbhalerao123"
             />
           </section>

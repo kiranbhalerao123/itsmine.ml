@@ -14,13 +14,13 @@
   padding: 0.7rem 1.4rem;
   margin: 0 1rem 0 0 !important;
   border-radius: 1.5rem !important;
-  border: 0;
+  border: 0rem;
 }
 .btn-github {
   padding: 0.7rem 1.4rem;
-  margin: 0px !important;
+  margin: 0rem !important;
   border-radius: 1.5rem 0 0 1.5rem !important;
-  border: 0;
+  border: 0rem;
 }
 
 @media screen and (max-width: 600px) {

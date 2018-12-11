@@ -31,7 +31,7 @@ const fontColors = [
 ];
 */
 
-const subtitle = `Projects..hmm!🤗 ok, This section contains some of my projects that I've built in my free time. This site is also a part of them, I've fetch all projects info from github's graphql API, ok enough talking have look at..🙂`;
+ const subtitle = `Projects..Hmm! ok, This section contains some of my projects that I've built in my free time. This site is also a part of them, I just fetch all projects info from github's graphql with Netlify's Lambda functions, enough intro have look at some of them..🙂`;
 
 class Projects extends React.Component {
   state = {
