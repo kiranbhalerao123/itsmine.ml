@@ -3,7 +3,7 @@ import "./Skills.css";
 import Heading from "../heading/Heading";
 import SkillCard from "../skill-card/SkillCard";
 
-const subtitle = `I think🤔 this is a good place to talk about my skills..Hmm😃 isn't it? ok fine. I Categorised my skills into three sections as..`;
+const subtitle = `I think this is a good place to talk about my skills..Hmm😃 isn't it? ok fine. I Categorised my skills into three sections as..`;
 class Skills extends Component {
   render() {
     return (
