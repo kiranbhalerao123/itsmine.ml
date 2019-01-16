@@ -12,7 +12,7 @@ class Footer extends Component {
           <strong>Open Source 😍</strong>
         </p>
         <p className="text-center pl-3 pr-3 pt-1">
-          Copyright © 2018 Created by{" "}
+          Copyright © 2019 Created by{" "}
           <a
             className="text-dark"
             href="https://www.linkedin.com/in/kiran-bhalerao-b12aa9132/"
