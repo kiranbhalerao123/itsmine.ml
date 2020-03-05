@@ -9,7 +9,7 @@ class Footer extends Component {
       >
         <p className='mb-0 pb-0'>
           <span className='text-danger'>{'<3'}</span>{' '}
-          <strong>Open Source 😍</strong>
+          <strong onClick={()=> windoe.open('https://www.npmjs.com/~bhaleraok65')}>Open Source 😍</strong>
         </p>
         <p className='text-center pl-3 pr-3 pt-1'>
           Copyright © {new Date().getFullYear()} Created by{' '}
