@@ -1,1 +1,1 @@
-# It'smekiran.ml 😄
+https://itsmekiran.netlify.com/
