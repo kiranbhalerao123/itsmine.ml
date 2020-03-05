@@ -26,7 +26,7 @@ class Skills extends Component {
             <SkillCard
               img_url={require("../../assets/android_icon.png")}
               title="App development"
-              desc={`I am a Frontend Engineer, but with the understanding of Reactjs/React Native i can able to develope an Android/IOS app. I Have use React native to Build an cross-platform Apps and Tried flutter 🐦 also.`}
+              desc={`I am a Frontend Engineer, but with the Good understanding of React Native i can able to develope an Android/IOS app. I Have used React native to Build an cross-platform Apps and tried flutter 🐦 also.`}
               url="https://github.com/kiranbhalerao123"
             />
           </section>
