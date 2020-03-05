@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   padding: 0rem 3rem;
   justify-content: center;
-  align-items: center;
+/*   align-items: center; */
 }
 #skills-section > p {
   font-family: 'Nunito', sans-serif;
