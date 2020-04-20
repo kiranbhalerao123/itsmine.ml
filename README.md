@@ -1,1 +1,1 @@
-https://itsmekiran.netlify.com/
+https://itsmekiran.netlify.app/
