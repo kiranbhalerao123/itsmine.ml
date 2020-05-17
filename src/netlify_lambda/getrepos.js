@@ -8,24 +8,29 @@ exports.handler = (event, context, callback) => {
   const accessToken = process.env.GITHUB_API_KEY;
   const query = `
   query {
-    repositoryOwner(login:"kiranbhalerao123"){
-      pinnedRepositories(first:10) {
-        nodes {
-          name
-          url
-          homepageUrl
-          description
-          repositoryTopics(first:10) {
-            nodes {
-              topic {
-                name
+  user(login: "kiranbhalerao123") {
+    pinnedItems(first: 10) {
+      totalCount
+      nodes: edges {
+        node {
+          ... on Repository {
+            name
+            url
+            homepageUrl
+            description
+            repositoryTopics(first: 10) {
+              nodes {
+                topic {
+                  name
+                }
               }
             }
           }
         }
       }
     }
-  }`;
+  }
+}`;
 
   // Send json response to the react client app
   const send = body => {
@@ -45,7 +50,7 @@ exports.handler = (event, context, callback) => {
         Authorization: `Bearer ${accessToken}`
       }
     })
-      .then(res => send(res.data.data.repositoryOwner.pinnedRepositories.nodes))
+      .then(res => send(res.data.data.user.pinnedItems.nodes))
       .catch(err => send(err));
   };
 
