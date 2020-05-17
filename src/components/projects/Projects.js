@@ -45,7 +45,7 @@ class Projects extends React.Component {
       .catch(e => this.setState({ err: e.message }));
   };
   renderCards = () => {
-    return this.state.repos.map((node, i) => (
+    return this.state.repos.map(({node}, i) => (
       <ProjectCard
         node={node}
         btnColor={`#${node.repositoryTopics.nodes[1].topic.name}`}
