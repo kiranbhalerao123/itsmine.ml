@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "animated-scroll-to": "^1.2.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "encode-case64": "^1.0.8",
     "graphql": "^14.0.2",
     "node-fetch": "^2.3.0",
